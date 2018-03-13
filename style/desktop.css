@@ -1,0 +1,186 @@
+
+@import "https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=cyrillic";
+@import "https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,400i,700&amp;subset=cyrillic";
+
+body {
+  background-color: #FCFFFE;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+
+}
+.logo {
+  display: block;
+  width: 83px;
+  height: 23px;
+  background-image: url(../images/logo.svg);
+  background-size: contain;
+  background-position:center;
+  background-repeat: no-repeat;
+  margin: 18px;
+}
+
+.onepage {
+  display: flex;
+  height: 800px;
+  overflow: hidden;
+}
+
+.onepage.two {
+  background-color: #879696;
+  color: #ffffff;
+}
+
+.onepage.two .text {
+    left: 800px;
+}
+
+.text {
+  width: 480px;
+  position: relative;
+  left: 160px;
+  top: 186px;
+}
+
+h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: bold;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.line {
+width: 30px;
+height: 4px;
+background-color: #50E3C2;
+}
+
+.big {
+  position: relative;
+  background-image: url(../images/about.png);
+  background-size: cover;
+  width: 530px;
+  height: 1199,86px;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  top: 233px;
+  left: 750px;
+  overflow: hidden;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mob.about {
+  background-image: url(../images/about.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 316,94px;
+}
+
+.mob {
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+}
+.mob.works {
+  background-image: url(../images/works.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 395,01px;
+}
+
+.mob.work {
+  background-image: url(../images/work.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 474,44px;
+}
+
+.screens {
+  position: relative;
+  left: 640px;
+  top: 343px;
+  background-image: url(../images/screens.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 759px;
+  height: 403px;
+}
+
+.ending {
+  height: 800px;
+  color: #ffffff;
+  background-color: #879696;
+  align-items: center;
+
+}
+ .ending .text {
+   left: 0;
+   text-align: center;
+   width: 872px;
+   margin: 0 auto;
+
+ }
+
+ .ending .text.p {
+   width: 763px;
+ }
+
+nav.buttons {
+  position: relative;
+  align-items: center;
+  margin: 0 auto;
+  width: 781px;
+  top: 197px;
+}
+
+.btn {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 17px;
+  line-height: 50px;
+  width: 300px;
+  height: 50px;
+  background-color: #77FFE1;
+  color: #000000;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.tap {
+  width: 781px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-align: center;
+}
