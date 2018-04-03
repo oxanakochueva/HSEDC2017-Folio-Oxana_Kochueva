@@ -50,7 +50,8 @@ body {
 }
 
 .onepage.two .text {
-    left: 800px;
+    /* left: 800px; */
+    left: 160px;
 }
 
 .text {
@@ -92,8 +93,19 @@ background-color: #50E3C2;
 }
 
 .img {
+  position: relative;
+  top: 25%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 800px;
+  align-items: baseline;
+  align-content: flex-start;
+  height: 475px;
+}
+
+.mob {
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  align-self:flex-start;
 }
 
 .mob.about {
@@ -101,18 +113,17 @@ background-color: #50E3C2;
   background-size: cover;
   background-repeat: no-repeat;
   width: 140px;
-  height: 316,94px;
+  /* height: 316,94px; */
+  height: 317px;
 }
 
-.mob {
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
-}
 .mob.works {
   background-image: url(../images/works.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 140px;
-  height: 395,01px;
+  /* height: 395,01px; */
+  height: 395px;
 }
 
 .mob.work {
@@ -120,7 +131,8 @@ background-color: #50E3C2;
   background-size: cover;
   background-repeat: no-repeat;
   width: 140px;
-  height: 474,44px;
+  /* height: 474,44px; */
+  height: 475px;
 }
 
 .screens {
