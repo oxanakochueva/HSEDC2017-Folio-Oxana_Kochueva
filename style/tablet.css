@@ -1,0 +1,93 @@
+@media (min-width: 840px) and (max-width: 1179px){
+.logo {
+  width: 58px;
+  height: 16px;
+}
+
+.onepage {
+  height: 568px;
+}
+
+.text {
+  width: 342px;
+  top: 134px;
+}
+
+.onepage.two .text {
+  top: 92px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 39px;
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.line {
+  width: 22px;
+  height: 3px;
+}
+
+.big {
+  width: 376px;
+  height: 851,22px;
+  top: 166px;
+}
+
+.img {
+  width: 346px;
+  height: 339px;
+  left: 114px;
+  top: 96px;
+}
+
+.mob.about {
+  width: 100px;
+  height: 226px;
+}
+
+.mob.works {
+  width: 100px;
+  height: 282px;
+}
+
+.mob.work {
+  width: 100px;
+  height: 339px;
+}
+
+.screens {
+  width: 540px;
+  height: 287px;
+  top: 243px;
+}
+
+.ending {
+  width: 1180px;
+  height: 568px;
+  justify-content: center;
+
+}
+ .ending .text {
+   width: 548px;
+ }
+
+ .ending .text.p {
+   width: 763px;
+ }
+
+.btn {
+  font-size: 12px;
+  line-height: 36px;
+  width: 214px;
+  height: 36px;
+}
+
+.tap {
+  font-size: 13px;
+}
+
+}
