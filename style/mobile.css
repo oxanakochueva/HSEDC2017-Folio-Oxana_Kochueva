@@ -1,4 +1,9 @@
 @media (min-width: 768px) and (max-width: 839px){
+
+body {
+  width: 100vw;
+}
+
 .logo {
   width: 58px;
   height: 16px;
@@ -70,7 +75,6 @@ p {
 }
 
 .ending {
-  width: 840px;
   height: 1024px;
   justify-content: center;
 
